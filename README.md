@@ -8,20 +8,21 @@ This project aims to implement and apply Big Data concepts using Apache Spark to
 ## 📁 Repository Structure
 ```
 📂 BigData_Spark_Project
-├── 📁 data                  # Flight and aircraft datasets
-├── 📁 notebooks             # Notebooks for exploratory analysis and modeling
-├── 📁 models                # Saved trained models
-├── 📁 scripts               # Processing and Spark application scripts
-├── 📁 results               # Model evaluation results and metrics
-├── app.py                   # Spark application for predictions
-├── models.py                # Model definition and training
-└── README.md                # Documentation file
+├── 📁 best_model                    # Saved the best model
+├── 📁 data                          # Flight and aircraft datasetsç
+├── 📁 mappings                      # Mappings for other datasets
+├── 📁 models                        # Saved trained models
+├── app.py                          # Spark application for predictions
+├── flight-delay-prediction.ipynb   # Notebooks for exploratory analysis and modeling
+├── models.py                       # Model definition and training
+├── models_preprocessing.py         # Data preprocessing for the models
+└── README.md                       # Documentation file
 ```
 
 ---
 
 ## 🔧 Technologies Used
-- **Apache Spark** (Spark Core, Spark SQL, MLlib)
+- **Apache Spark** (Spark Core, MLlib)
 - **Python** (Pandas, NumPy, Matplotlib, Scikit-learn)
 - **Jupyter Notebook** for exploratory analysis
 - **Linux** for execution and development
