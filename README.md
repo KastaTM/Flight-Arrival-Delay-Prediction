@@ -1,18 +1,5 @@
 # Flight-Arrival-Delay-Prediction
 
-📌 Project: Flight Delay Prediction
-
-This project aims to implement and apply Big Data concepts using Apache Spark to predict the arrival delay of commercial flights based on features known at takeoff.
-
-
-# Big Data: Spark Practical Work
-
-## Polytechnic University of Madrid
-**School of Computer Engineering**
-
-### Master in Data Science - Group 23
-**Rodrigo Castañón Martínez, Ignacio Domínguez Calvo, Dakota James Mellish**
-
 ## 📌 Project: Flight Delay Prediction
 This project aims to implement and apply Big Data concepts using Apache Spark to predict the arrival delay of commercial flights based on features known at takeoff.
 
@@ -75,11 +62,6 @@ The selected features include flight details, airline information, delays, airpo
 ---
 
 ## 📜 Usage Instructions
-### 🔹 Install Dependencies
-Run in a virtual environment:
-```bash
-pip install -r requirements.txt
-```
 ### 🔹 Execute the Spark Application
 Ensure Apache Spark is installed and configured.
 ```bash
@@ -97,10 +79,3 @@ spark-submit app.py data/2007.csv
 - Future improvements may include incorporating weather data and expanding the dataset across multiple years.
 
 ---
-
-## 📧 Contact
-For any inquiries regarding this project, contact:
-**Rodrigo Castañón Martínez, Ignacio Domínguez Calvo, Dakota James Mellish**
-
-We hope this documentation is helpful! 🚀
-
